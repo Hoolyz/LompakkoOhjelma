@@ -1,0 +1,10 @@
+U:\Kevät 2015\Visual studio projektit\LompakkoOhjelma\LompakkoLuokkaKirjasto\bin\Debug\LompakkoLuokkaKirjasto.dll
+U:\Kevät 2015\Visual studio projektit\LompakkoOhjelma\LompakkoLuokkaKirjasto\bin\Debug\LompakkoLuokkaKirjasto.pdb
+U:\Kevät 2015\Visual studio projektit\LompakkoOhjelma\LompakkoLuokkaKirjasto\obj\Debug\LompakkoLuokkaKirjasto.dll
+U:\Kevät 2015\Visual studio projektit\LompakkoOhjelma\LompakkoLuokkaKirjasto\obj\Debug\LompakkoLuokkaKirjasto.pdb
+U:\Kevät 2015\Visual studio projektit\LompakkoOhjelma\LompakkoLuokkaKirjasto\obj\Debug\LompakkoLuokkaKirjasto.csprojResolveAssemblyReference.cache
+C:\Users\Hoolyz'\Source\Workspaces\LompakkoOhjelma\LompakkoLuokkaKirjasto\bin\Debug\LompakkoLuokkaKirjasto.dll
+C:\Users\Hoolyz'\Source\Workspaces\LompakkoOhjelma\LompakkoLuokkaKirjasto\bin\Debug\LompakkoLuokkaKirjasto.pdb
+C:\Users\Hoolyz'\Source\Workspaces\LompakkoOhjelma\LompakkoLuokkaKirjasto\obj\Debug\LompakkoLuokkaKirjasto.csprojResolveAssemblyReference.cache
+C:\Users\Hoolyz'\Source\Workspaces\LompakkoOhjelma\LompakkoLuokkaKirjasto\obj\Debug\LompakkoLuokkaKirjasto.dll
+C:\Users\Hoolyz'\Source\Workspaces\LompakkoOhjelma\LompakkoLuokkaKirjasto\obj\Debug\LompakkoLuokkaKirjasto.pdb

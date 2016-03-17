@@ -1,0 +1,26 @@
+C:\Users\Hoolyz'\Source\Workspaces\Workspace\LompakkoOhjelma\LompakkoOhjelma\bin\Debug\LompakkoOhjelma.exe.config
+U:\Kevät 2015\Visual studio projektit\LompakkoOhjelma\LompakkoOhjelma\bin\Debug\LompakkoOhjelma.exe.config
+U:\Kevät 2015\Visual studio projektit\LompakkoOhjelma\LompakkoOhjelma\bin\Debug\LompakkoOhjelma.exe
+U:\Kevät 2015\Visual studio projektit\LompakkoOhjelma\LompakkoOhjelma\bin\Debug\LompakkoOhjelma.pdb
+U:\Kevät 2015\Visual studio projektit\LompakkoOhjelma\LompakkoOhjelma\obj\Debug\LompakkoOhjelma.csprojResolveAssemblyReference.cache
+U:\Kevät 2015\Visual studio projektit\LompakkoOhjelma\LompakkoOhjelma\obj\Debug\MainWindow.baml
+U:\Kevät 2015\Visual studio projektit\LompakkoOhjelma\LompakkoOhjelma\obj\Debug\MainWindow.g.cs
+U:\Kevät 2015\Visual studio projektit\LompakkoOhjelma\LompakkoOhjelma\obj\Debug\App.g.cs
+U:\Kevät 2015\Visual studio projektit\LompakkoOhjelma\LompakkoOhjelma\obj\Debug\LompakkoOhjelma_MarkupCompile.cache
+U:\Kevät 2015\Visual studio projektit\LompakkoOhjelma\LompakkoOhjelma\obj\Debug\LompakkoOhjelma.g.resources
+U:\Kevät 2015\Visual studio projektit\LompakkoOhjelma\LompakkoOhjelma\obj\Debug\LompakkoOhjelma.Properties.Resources.resources
+U:\Kevät 2015\Visual studio projektit\LompakkoOhjelma\LompakkoOhjelma\obj\Debug\LompakkoOhjelma.csproj.GenerateResource.Cache
+U:\Kevät 2015\Visual studio projektit\LompakkoOhjelma\LompakkoOhjelma\obj\Debug\LompakkoOhjelma.exe
+U:\Kevät 2015\Visual studio projektit\LompakkoOhjelma\LompakkoOhjelma\obj\Debug\LompakkoOhjelma.pdb
+C:\Users\Hoolyz'\Source\Workspaces\Workspace\LompakkoOhjelma\LompakkoOhjelma\obj\Debug\LompakkoOhjelma.exe
+C:\Users\Hoolyz'\Source\Workspaces\Workspace\LompakkoOhjelma\LompakkoOhjelma\obj\Debug\LompakkoOhjelma.pdb
+C:\Users\Hoolyz'\Source\Workspaces\Workspace\LompakkoOhjelma\LompakkoOhjelma\bin\Debug\LompakkoOhjelma.exe
+C:\Users\Hoolyz'\Source\Workspaces\Workspace\LompakkoOhjelma\LompakkoOhjelma\bin\Debug\LompakkoOhjelma.pdb
+C:\Users\Hoolyz'\Source\Workspaces\Workspace\LompakkoOhjelma\LompakkoOhjelma\obj\Debug\LompakkoOhjelma.csprojResolveAssemblyReference.cache
+C:\Users\Hoolyz'\Source\Workspaces\Workspace\LompakkoOhjelma\LompakkoOhjelma\obj\Debug\MainWindow.baml
+C:\Users\Hoolyz'\Source\Workspaces\Workspace\LompakkoOhjelma\LompakkoOhjelma\obj\Debug\MainWindow.g.cs
+C:\Users\Hoolyz'\Source\Workspaces\Workspace\LompakkoOhjelma\LompakkoOhjelma\obj\Debug\App.g.cs
+C:\Users\Hoolyz'\Source\Workspaces\Workspace\LompakkoOhjelma\LompakkoOhjelma\obj\Debug\LompakkoOhjelma_MarkupCompile.cache
+C:\Users\Hoolyz'\Source\Workspaces\Workspace\LompakkoOhjelma\LompakkoOhjelma\obj\Debug\LompakkoOhjelma.g.resources
+C:\Users\Hoolyz'\Source\Workspaces\Workspace\LompakkoOhjelma\LompakkoOhjelma\obj\Debug\LompakkoOhjelma.Properties.Resources.resources
+C:\Users\Hoolyz'\Source\Workspaces\Workspace\LompakkoOhjelma\LompakkoOhjelma\obj\Debug\LompakkoOhjelma.csproj.GenerateResource.Cache

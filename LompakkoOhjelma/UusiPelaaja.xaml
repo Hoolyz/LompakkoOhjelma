@@ -1,0 +1,30 @@
+﻿<Window x:Class="LompakkoOhjelma.UusiPelaaja"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="UusiPelaaja" Height="212" Width="317.498" Closed="Window_Closed" Loaded="Window_Loaded">
+    <Grid Margin="10,10,10,10" Loaded="Grid_Loaded">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+
+        </Grid.ColumnDefinitions>
+
+        <TextBox x:Name="txtNimi" Grid.Column="2" Height="23" Grid.Row="1" TextWrapping="Wrap" Text="Nimi" HorizontalAlignment="Center" VerticalAlignment="Center" Width="120" GotFocus="txtNimi_GotFocus"/>
+
+        <Label Content="Nimi" HorizontalAlignment="Left" Grid.Row="1" VerticalAlignment="Top"/>
+        <Button x:Name="btnLuo" Content="Luo uusi pelaaja" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Width="113" Height="34" Click="btnLuo_Click" />
+        <Button x:Name="btnPaluu" Content="Palaa pääikkunaan" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Width="114" Height="33" Click="btnPaluu_Click"  />
+
+
+    </Grid>
+</Window>

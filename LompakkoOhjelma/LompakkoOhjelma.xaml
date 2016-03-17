@@ -1,0 +1,71 @@
+﻿<Window x:Class="LompakkoOhjelma.Valinta"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Lompakko Ohjelma" Height="755.5" Width="600" Closed="Window_Closed" Loaded="Window_Loaded" Activated="Window_Activated">
+    <Grid Margin="10,10,10,10" Loaded="Grid_Loaded">
+        <Grid.RowDefinitions>
+            <RowDefinition Height = "Auto"/>
+            <RowDefinition Height = "30"/>
+            <RowDefinition Height = "30"/>
+            <RowDefinition Height = "Auto"/>
+            <RowDefinition Height = "Auto"/>
+            <RowDefinition Height = "Auto"/>
+            <RowDefinition Height = "40"/>
+            <RowDefinition Height = "30"/>
+            <RowDefinition Height = "Auto"/>
+            <RowDefinition Height = "Auto"/>
+            <RowDefinition Height = "Auto"/>
+            <RowDefinition Height = "Auto"/>
+            <RowDefinition Height = "Auto"/>
+            <RowDefinition Height = "Auto"/>
+            <RowDefinition Height = "30"/>
+            <RowDefinition Height = "30"/>
+            <RowDefinition Height = "30"/>
+            <RowDefinition Height = "100"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+
+        <Label Content="LompakkoOhjelma" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Segoe WP Black" FontSize="16" Grid.ColumnSpan="2" Grid.Column="0"  />
+
+        <Label x:Name="lblPoisto" Content="Poisto Tila" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="2" FontFamily="Segoe WP Black" FontSize="18" Grid.ColumnSpan="2" Grid.Column="0" Cursor="None" Foreground="#FFFF0101"  />
+
+        <TextBox x:Name="txtEtsi" Grid.ColumnSpan="2" Grid.Row="1"  HorizontalAlignment="center" TextWrapping="Wrap" VerticalAlignment="Center" Width="120" TextAlignment="Center" Grid.Column="0" TextChanged="txtEtsi_TextChanged" />
+
+        <ListBox x:Name="lstPelaajat" Grid.Column="0" HorizontalAlignment="Center" Height="170"  Grid.Row="5" VerticalAlignment="Center" Width="170" SelectionChanged="lstPelaajat_SelectionChanged" GotFocus="lstPelaajat_GotFocus"/>
+        <ListBox x:Name="lstLompakot" Grid.Column="1" HorizontalAlignment="Center" Height="170"  Grid.Row="5" VerticalAlignment="Center" Width="170" SelectionChanged="lstLompakot_SelectionChanged"/>
+
+
+        <Label Content="Nimi:" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="8" Grid.Column="0" />
+        <Label Content="Lompakon Numero:" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="9" Grid.Column="0"  />
+        <Label Content="Pisteet:" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="10" Grid.Column="0"  />
+        <Label Content="Saldo:" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="11" Grid.Column="0"  />
+
+        <Button x:Name="btnMuuta" Content="Muuta Saldoa" Grid.Column="1" HorizontalAlignment="Center"  Grid.Row="13" VerticalAlignment="Center" Width="120" Click="btnMuuta_Click" />
+        <TextBox x:Name="txtMuuta" Grid.Column="1" HorizontalAlignment="Center" Height="23"  Grid.Row="12" TextWrapping="Wrap" Text="Muuta Saldoa" VerticalAlignment="Center" Width="120" TextAlignment="Center" PreviewTextInput="txtMuuta_PreviewTextInput" GotFocus="txtMuuta_GotFocus" />
+
+        <Button x:Name="btnUusi" Content="Uusi Pelaaja" HorizontalAlignment="Center" Grid.Row="6" VerticalAlignment="Center" Width="120" Click="btnUusi_Click" Grid.Column="0" />
+        <Button x:Name="btnUusiLompakko" Content="Uusi Lompakko" HorizontalAlignment="Center" Grid.Row="6" VerticalAlignment="Center" Width="120" Grid.Column="1" Click="btnUusiLompakko_Click" />
+
+        <Label Content="Nimi" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="4" Grid.Column="0" />
+        <Label Content="Lompakon Numero" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="4" Grid.Column="1"/>
+        <Label x:Name="lblLompakko" Content="" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="9" VerticalAlignment="Center" />
+        <Label x:Name="lblPisteet" Content="" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="10" VerticalAlignment="Center" />
+        <Label x:Name="lblSaldo" Content="" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="11" VerticalAlignment="Center" />
+
+
+        <Button x:Name="btnAloitaPeli"  Grid.ColumnSpan="2" Content="Aloita Peli" HorizontalAlignment="center" Height="75" Grid.Row="17" VerticalAlignment="center" Width="300" Click="btnAloitaPeli_Click" />
+        <Button x:Name="btnPoistaPelaaja" Content="Poista Pelaaja" HorizontalAlignment="Center" Grid.Row="15" VerticalAlignment="Center" Width="125" Click="btnPoistaPelaaja_Click"/>
+        <Button x:Name="btnPoistaLompakko" Content="Poista Lompakko" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="15" Width="125" Margin="74,6,74,5" Click="btnPoistaLompakko_Click"/>
+
+        <Button x:Name="btnPoisto" Content="Poistaminen päälle" HorizontalAlignment="Center" Grid.Row="14" VerticalAlignment="Center" Width="150" Grid.ColumnSpan="2" Click="btnPoisto_Click"  />
+        <Button x:Name="btnPoistoPois" Content="Poistaminen pois" HorizontalAlignment="Center" Grid.Row="14" VerticalAlignment="Center" Width="150" Grid.ColumnSpan="2" Click="btnPoistoPois_Click"  />
+        <Label x:Name="lblNimi" Content="" Grid.Column="1" Margin="125,1,0,0" Grid.Row="8" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+
+    </Grid>
+</Window>

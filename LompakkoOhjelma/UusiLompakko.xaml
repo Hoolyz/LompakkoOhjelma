@@ -1,0 +1,33 @@
+﻿<Window x:Class="LompakkoOhjelma.UusiLompakko"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="UusiLompakko" Height="197" Width="278" Closed="Window_Closed" Loaded="Window_Loaded" Activated="Window_Activated" >
+    <Grid Margin="10,10,10,10" Loaded="Grid_Loaded">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+
+        </Grid.ColumnDefinitions>
+        <Label Content="Nimi" HorizontalAlignment="Left" Grid.Row="0" VerticalAlignment="Top"/>
+
+        <TextBox x:Name="txtSaldo" Grid.Column="2" Height="23" Grid.Row="1" TextWrapping="Wrap" Text="Saldo" HorizontalAlignment="Center" VerticalAlignment="Center" Width="120" GotFocus="txtSaldo_GotFocus" PreviewTextInput="txtSaldo_PreviewTextInput"/>
+        <Label Content="Saldo" HorizontalAlignment="Left" Grid.Row="1" VerticalAlignment="Top"/>
+
+
+        <Button x:Name="btnLuo" Content="Luo uusi Lompakko" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Width="113" Height="34" Click="btnLuo_Click" />
+        <Button x:Name="btnPaluu" Content="Palaa pääikkunaan" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Width="114" Height="33" Click="btnPaluu_Click"  />
+        <Label x:Name="lblNimi" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+
+    </Grid>
+</Window>
